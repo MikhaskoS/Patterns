@@ -10,6 +10,7 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            SingletonBase.Demo.Test();
         }
     }
 }
