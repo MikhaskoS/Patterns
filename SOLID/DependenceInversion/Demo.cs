@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 
 namespace SOLID.DependenceInversion
 {
@@ -16,6 +16,14 @@ namespace SOLID.DependenceInversion
             relationships.AddParentAndChild(parent, child2);
 
             new Research(relationships);
+        }
+    }
+
+    public class Ops
+    {
+        public void Test()
+        {
+            Console.WriteLine("Hello World!");
         }
     }
 }

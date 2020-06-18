@@ -23,7 +23,7 @@ namespace SOLID.DependenceInversion
         //}
 
         // Правильный подход - для извлечения информации используется
-        // абстракция в виде интерфейса
+        // абстракция в виде интерфейса (конструктор)
         public Research(IRelationshipBrowser browser)
         {
             foreach (var p in browser.FindAllChildrenOf("John"))

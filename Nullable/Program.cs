@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Bridge
+namespace Nullable
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Bridge.Demo.Test();
+            //Nullable.Demo.Test();
+            DynamicNullable.Demo.Test();
+
+            Console.ReadKey(true);
         }
     }
 }

@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bridge
+namespace Composite
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Bridge.Demo.Test();
         }
     }
 }

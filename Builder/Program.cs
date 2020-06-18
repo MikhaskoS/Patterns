@@ -11,9 +11,9 @@ namespace Builder
             
             //BuilderBase.Demo.Test();
             //MultiBuilder.Demo.Test();
-            InheritanceBuilder.Demo.Test();
-            FuncBuilder.Demo.Test();
-            BuilderParameter.Demo.Test();
+            //InheritanceBuilder.Demo.Test();
+            //FuncBuilder.Demo.Test();
+            //BuilderParameter.Demo.Test();
 
             #endregion
 

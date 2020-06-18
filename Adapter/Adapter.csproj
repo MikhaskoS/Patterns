@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdapterSample\Demo.cs" />
+    <Compile Include="AdapterSample\Line.cs" />
+    <Compile Include="AdapterSample\LineToPointAdapter.cs" />
+    <Compile Include="AdapterSample\Point.cs" />
+    <Compile Include="AdapterSample\VectorObject.cs" />
+    <Compile Include="AdapterSample\VectorRectangle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
