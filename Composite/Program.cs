@@ -10,6 +10,8 @@ namespace Composite
     {
         static void Main(string[] args)
         {
+            //Composite.Demo.Test();
+            CompositeNeuronet.Demo.Test();
         }
     }
 }

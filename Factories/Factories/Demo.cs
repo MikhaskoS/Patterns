@@ -17,8 +17,6 @@ namespace Factories.Factories
         }
     }
 
-   
-
     public class Point
     {
         public enum CoordinateSystem
