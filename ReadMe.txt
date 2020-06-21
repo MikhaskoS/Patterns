@@ -28,10 +28,15 @@
 
 8. Composite (Компоновщик)
 
+16. Interpreter (Интерпретатор)
+    Демонстрируется идея для синтаксического анализа (лексинга) математического выражения
+	       и превращения его в ООП структуру (парсинг)
+    IReadOnlyList<T>    https://docs.microsoft.com/ru-ru/dotnet/api/system.collections.generic.ireadonlylist-1?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Collections.Generic.IReadOnlyList%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
+
 19. Nullable
 ---------------
-   DynamicObject https://docs.microsoft.com/ru-ru/dotnet/api/system.dynamic.dynamicobject?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Dynamic.DynamicObject);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
-   ImpromptuInterface - Библиотека из NuGet (https://github.com/ekonbenefits/impromptu-interface)
+    DynamicObject https://docs.microsoft.com/ru-ru/dotnet/api/system.dynamic.dynamicobject?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Dynamic.DynamicObject);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
+    ImpromptuInterface - Библиотека из NuGet (https://github.com/ekonbenefits/impromptu-interface)
                       позволяет обернуть любой объект (статический или динамический) статическим 
 					  интерфейсом, даже если он не наследуется от него. 
 					  Это делается путем передачи кэшированного кода динамического связывания 
