@@ -11,7 +11,8 @@ namespace Composite
         static void Main(string[] args)
         {
             //Composite.Demo.Test();
-            CompositeNeuronet.Demo.Test();
+            //CompositeNeuronet.Demo.Test();
+            CompositeSpecificstion.Demo.Test();
         }
     }
 }
