@@ -37,10 +37,15 @@
 	Пример - хранение имен с экономией памяти
 	Пример - форматирование текста с экономией памяти
 
+14. Command (Команда)
+
 16. Interpreter (Интерпретатор)
     Демонстрируется идея для синтаксического анализа (лексинга) математического выражения
 	       и превращения его в ООП структуру (парсинг)
     IReadOnlyList<T>    https://docs.microsoft.com/ru-ru/dotnet/api/system.collections.generic.ireadonlylist-1?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Collections.Generic.IReadOnlyList%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
+
+18. Memento (Хранитель)
+    Храниение состояний объекта. Операции Undo\Redo
 
 19. Nullable
 ---------------
