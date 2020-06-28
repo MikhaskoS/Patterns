@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Strategy
 {
@@ -10,7 +7,12 @@ namespace Strategy
     {
         static void Main(string[] args)
         {
-            DynamicStrategy.Demo.Test();
+            //DynamicStrategy.Demo.Test();
+            //EqualSample.Demo.Test();
+
+            Exercise.Sample1.Test();
+
+            Console.ReadKey(true);
         }
     }
 }
