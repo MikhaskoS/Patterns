@@ -57,3 +57,5 @@
 					  внутри прокси.
    Activator - динамически создает экземпляр указанного типа с конструктором по-умолчанию
                https://docs.microsoft.com/ru-ru/dotnet/api/system.activator?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Activator);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
+
+22. Strategy (Стратегия)
