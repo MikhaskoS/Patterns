@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Memento\Memento.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{A23C28C6-F170-4E46-88CF-888BC7D0F7E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{DA86CCF9-D174-4FDB-B324-8E9C05D88CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{A23C28C6-F170-4E46-88CF-888BC7D0F7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23C28C6-F170-4E46-88CF-888BC7D0F7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23C28C6-F170-4E46-88CF-888BC7D0F7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA86CCF9-D174-4FDB-B324-8E9C05D88CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA86CCF9-D174-4FDB-B324-8E9C05D88CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA86CCF9-D174-4FDB-B324-8E9C05D88CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA86CCF9-D174-4FDB-B324-8E9C05D88CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
