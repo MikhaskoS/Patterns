@@ -23,28 +23,48 @@
 ---------------
 
 7.Bridge
+---------------
     Autofac (NuGet - https://autofac.org/) - позволяет создавать контейнер, в котором регистрируюются
 	      объекты. Затем эти объекты можно извлекать.
 
 8. Composite (Компоновщик)
+---------------
 
 9. Decorator (Декоратор)
+---------------
 
-10. Fasade (Фасад)
+10. Faсade (Фасад)
+---------------
 
 11. Flyweight (Приспособленец)
+---------------
     Есть пример тестирования
 	Пример - хранение имен с экономией памяти
 	Пример - форматирование текста с экономией памяти
 
-14. Command (Команда)
+12. Proxy (Посредник)
+---------------
 
-16. Interpreter (Интерпретатор)
+13. Chain of Responsibility (Цепочка обязанностей)
+---------------
+
+14. Command (Команда)
+---------------
+
+15. Interpreter (Интерпретатор)
+---------------
     Демонстрируется идея для синтаксического анализа (лексинга) математического выражения
 	       и превращения его в ООП структуру (парсинг)
     IReadOnlyList<T>    https://docs.microsoft.com/ru-ru/dotnet/api/system.collections.generic.ireadonlylist-1?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Collections.Generic.IReadOnlyList%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
 
+16. Iterator (Итератор)
+---------------
+
+17. Mediator (Посредник)
+---------------
+
 18. Memento (Хранитель)
+---------------
     Храниение состояний объекта. Операции Undo\Redo
 
 19. Nullable
@@ -58,5 +78,22 @@
    Activator - динамически создает экземпляр указанного типа с конструктором по-умолчанию
                https://docs.microsoft.com/ru-ru/dotnet/api/system.activator?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Activator);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
 
+20. Observer (наблюдатель)
+---------------
+    WeakEventPattern - Прослушивание слабых событий (сборка мусора)
+    Interfaces - спец. интерфейсы IObservable и IObserver. 
+                      Используется NuGet пакет System.Reactive - расширяет Linq и
+                      позволяет работать с потоками событий как коллекциями
+21. State (состояние)
+---------------
+    Stateless - сторонняя библитека для построения машины состояния
+
 22. Strategy (Стратегия)
+---------------
     Класс Complex для работы с комплексными числами
+
+23. Template Method (Шаблонный метод)
+---------------
+
+24. Visitor (Посетитель)
+---------------
