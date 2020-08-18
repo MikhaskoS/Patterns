@@ -19,7 +19,7 @@
 	MoreLinq - расширение библиотеки LINQ, загруженное из NuGet: https://habr.com/ru/post/167831/
 	Lazy<T> - ленивая инициализация https://docs.microsoft.com/ru-ru/dotnet/api/system.lazy-1?f1url=https%3A%2F%2Fmsdn.microsoft.com%2Fquery%2Fdev16.query%3FappId%3DDev16IDEF1%26l%3DRU-RU%26k%3Dk(System.Lazy%601);k(TargetFrameworkMoniker-.NETFramework,Version%3Dv4.7.2);k(DevLang-csharp)%26rd%3Dtrue&view=netcore-3.1
 
-6.Adapter
+6.Adapter. Играет роль моста между двумя несовместимыми интерфейсами.
 ---------------
 
 7.Bridge

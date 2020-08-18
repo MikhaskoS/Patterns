@@ -23,7 +23,7 @@
         {
             var e = new HtmlElement(childName, childText);
             root.Elements.Add(e);
-            return this;
+            return this; // <- !!!
         }
 
         public override string ToString() => root.ToString();

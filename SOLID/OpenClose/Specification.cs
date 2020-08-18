@@ -52,7 +52,6 @@ namespace SOLID.OpenClose
 
     #endregion
 
-
     public class BetterFilter : IFilter<Product>
     {
         public IEnumerable<Product> Filter(IEnumerable<Product> items, Specification<Product> spec)
@@ -92,5 +91,4 @@ namespace SOLID.OpenClose
             return p.Size == size;
         }
     }
-
 }

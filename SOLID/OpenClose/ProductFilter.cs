@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 
+
 namespace SOLID.OpenClose
 {
     public class ProductFilter
@@ -29,5 +30,4 @@ namespace SOLID.OpenClose
 
         // OCP = open for extension but closed for modification
     }
-
 }

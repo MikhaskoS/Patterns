@@ -6,7 +6,9 @@ namespace ChainOfResponsibility
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
+            BrokerChain.Demo.Test();
         }
     }
 }

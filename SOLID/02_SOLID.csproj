@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33D81AF3-89E0-49A0-A3C2-1F1F488409FA}</ProjectGuid>
+    <ProjectGuid>{11980792-9DA9-4A01-9DDC-4769622DC980}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Adapter</RootNamespace>
-    <AssemblyName>Adapter</AssemblyName>
+    <RootNamespace>SOLID</RootNamespace>
+    <AssemblyName>SOLID</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdapterSample\Demo.cs" />
+    <Compile Include="DependenceInversion\Demo.cs" />
+    <Compile Include="DependenceInversion\IRelationshipBrowser.cs" />
+    <Compile Include="DependenceInversion\Person.cs" />
+    <Compile Include="DependenceInversion\Relationships.cs" />
+    <Compile Include="DependenceInversion\Research.cs" />
+    <Compile Include="Exercise\Test.cs" />
+    <Compile Include="Exercise\Test2.cs" />
+    <Compile Include="OpenClose\Demo.cs" />
+    <Compile Include="OpenClose\Product.cs" />
+    <Compile Include="OpenClose\ProductFilter.cs" />
+    <Compile Include="OpenClose\Specification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -57,5 +67,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
