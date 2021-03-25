@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Builder.Exercise;
+using System;
 
 
 namespace Builder
@@ -8,12 +9,14 @@ namespace Builder
         static void Main(string[] args)
         {
             #region Builder
-            
+
             //BuilderBase.Demo.Test();
             //MultiBuilder.Demo.Test();
             //InheritanceBuilder.Demo.Test();
             //FuncBuilder.Demo.Test();
             //BuilderParameter.Demo.Test();
+
+            Sample1.Test();
 
             #endregion
 

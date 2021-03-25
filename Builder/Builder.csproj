@@ -54,6 +54,7 @@
     <Compile Include="BuilderBase\HtmlElement.cs" />
     <Compile Include="BuilderParameter\Demo.cs" />
     <Compile Include="BuilderParameter\MailService.cs" />
+    <Compile Include="Exercise\Sample1.cs" />
     <Compile Include="FuncBuilder\Demo.cs" />
     <Compile Include="InheritanceBuilder\Demo.cs" />
     <Compile Include="InheritanceBuilder\Person.cs" />

@@ -6,7 +6,7 @@ namespace Mediator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ChatRoom.Demo.Test();
         }
     }
 }
